@@ -7,6 +7,7 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
 import 'react-toastify/dist/ReactToastify.css';
+import classNames from 'classnames';
 
 import { makeStyles } from '@material-ui/core/styles';
 import AddIcon from '@material-ui/icons/Add';
@@ -270,7 +271,7 @@ function CreateProject(props) {
                               common_classes.marginBottom1em,
                             )}
                           >
-                            <Box className={classes.fieldNumberStyle}>1</Box>
+                            <Box className={ classNames([classes.fieldNumberStyle, classes.centeredCircle])}>1</Box>
                             {t('createProject.inputs.title.label')}
                           </Typography>
                         </label>
@@ -313,7 +314,7 @@ function CreateProject(props) {
                               common_classes.marginBottom1em,
                             )}
                           >
-                            <Box className={classes.fieldNumberStyle}>2</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>2</Box>
                             {t('createProject.inputs.description.label')}
                           </Typography>
                         </label>
@@ -399,7 +400,7 @@ function CreateProject(props) {
                             color="textSecondary"
                             className={classes.customLabelStyle}
                           >
-                            <Box className={classes.fieldNumberStyle}>3</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>3</Box>
                             {t('createProject.inputs.projectImages.label')}
                           </Typography>
                         </label>
@@ -489,7 +490,7 @@ function CreateProject(props) {
                             color="textSecondary"
                             className={classes.customLabelStyle}
                           >
-                            <Box className={classes.fieldNumberStyle}>4</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>4</Box>
                             {t('createProject.inputs.video.label')}
                           </Typography>
                         </label>
@@ -580,7 +581,7 @@ function CreateProject(props) {
                               common_classes.marginBottom1em,
                             )}
                           >
-                            <Box className={classes.fieldNumberStyle}>5</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>5</Box>
                             {t('createProject.inputs.materialsUsed.label')}
                           </Typography>
                         </label>
@@ -642,7 +643,7 @@ function CreateProject(props) {
                             color="textSecondary"
                             className={classes.customLabelStyle}
                           >
-                            <Box className={classes.fieldNumberStyle}>6</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>6</Box>
                             {t('createProject.inputs.category.label')}
                           </Typography>
                         </label>
@@ -709,7 +710,7 @@ function CreateProject(props) {
                             color="textSecondary"
                             className={classes.customLabelStyle}
                           >
-                            <Box className={classes.fieldNumberStyle}>7</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>7</Box>
                             {t('createProject.inputs.tags.label')}
                           </Typography>
                         </label>
@@ -843,7 +844,7 @@ function CreateProject(props) {
                             color="textSecondary"
                             className={classes.customLabelStyle}
                           >
-                            <Box className={classes.fieldNumberStyle}>8</Box>
+                            <Box className={classNames([classes.fieldNumberStyle, classes.centeredCircle])}>8</Box>
                             {t('createProject.inputs.publish.label')}
                           </Typography>
                         </label>

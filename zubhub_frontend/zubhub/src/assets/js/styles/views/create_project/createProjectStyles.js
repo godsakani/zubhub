@@ -184,6 +184,11 @@ const styles = theme => ({
       fontSize: '1.2rem',
     },
   },
+  centeredCircle: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   questionIconStyle: {
     position: 'absolute',
     color: '#00B8C4',
